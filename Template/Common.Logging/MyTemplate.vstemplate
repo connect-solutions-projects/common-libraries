@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Common.Logging</Name>
+    <Description>Biblioteca de logging com Serilog</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>$safeprojectname$.Common.Logging</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.Common.Logging.csproj" File="$safeprojectname$.Common.Logging.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AppLog.cs">AppLog.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ConsoleLoggerExtensions.cs">ConsoleLoggerExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CorrelationIdMiddleware.cs">CorrelationIdMiddleware.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ILoggerService.cs">ILoggerService.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LoggerService.cs">LoggerService.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LoggingExtensions.cs">LoggingExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LoggingRegistration.cs">LoggingRegistration.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LogScopes.cs">LogScopes.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ResultLoggingExtensions.cs">ResultLoggingExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SerilogConfig.cs">SerilogConfig.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SeverityLevel.cs">SeverityLevel.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

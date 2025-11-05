@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Common.Results</Name>
+    <Description>Biblioteca de resultados e erros</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>$safeprojectname$.Common.Results</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.Common.Results.csproj" File="$safeprojectname$.Common.Results.csproj" ReplaceParameters="true">
+      <Folder Name="Extensions" TargetFolderName="Extensions">
+        <ProjectItem ReplaceParameters="true" TargetFileName="GridResultExtensions.cs">GridResultExtensions.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ResultExtensions.cs">ResultExtensions.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Factories" TargetFolderName="Factories">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ResultFactory.cs">ResultFactory.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ResultFactory.Grid.cs">ResultFactory.Grid.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GridResult.cs">GridResult.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IResult.cs">IResult.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IResultError.cs">IResultError.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PagedResult.cs">PagedResult.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PaginationParams.cs">PaginationParams.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PublicResult.cs">PublicResult.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Result.cs">Result.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ResultError.cs">ResultError.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

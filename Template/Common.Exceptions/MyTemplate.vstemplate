@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Common.Exceptions</Name>
+    <Description>Biblioteca de exceções personalizadas</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>$safeprojectname$.Common.Exceptions</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.Common.Exceptions.csproj" File="$safeprojectname$.Common.Exceptions.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AppException.cs">AppException.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DomainException.cs">DomainException.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ExternalServiceException.cs">ExternalServiceException.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

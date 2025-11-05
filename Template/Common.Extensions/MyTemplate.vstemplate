@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Common.Extensions</Name>
+    <Description>Biblioteca de extensões úteis</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>$safeprojectname$.Common.Extensions</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.Common.Extensions.csproj" File="$safeprojectname$.Common.Extensions.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="DapperExtensions.cs">DapperExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DecimalExtensions.cs">DecimalExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DoubleExtensions.cs">DoubleExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EnumExtensions.cs">EnumExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GenericsExtensions.cs">GenericsExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="JsonExtensions.cs">JsonExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ListExtensions.cs">ListExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ObjectExtensions.cs">ObjectExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ResultExtensions.cs">ResultExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StreamExtensions.cs">StreamExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StringExtensions.cs">StringExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UriExtensions.cs">UriExtensions.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
